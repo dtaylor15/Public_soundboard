@@ -1,0 +1,1 @@
+On the revamp: eleminate the onset pause for guitar buttons (make faster, like the percussion buttons)

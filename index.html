@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundBoard</title>
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="soundBoard" class="container text-center">
+        <div>
+            <h1>My Little Sound Board</h1>
+            <h3>Click a Button. Play a Sound</h3>
+        </div>
+        <div id="buttonsOnBoard" class="row d-flex justify-content-center">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <button type="button" class="btn btn-outline-danger mx-1" 
+                    data-sound="kickBass">
+                    Bass </button>
+                </div>
+                <div class="col-auto">
+                    <button type="button" class="btn btn-outline-warning mx-1" 
+                    data-sound="snare">
+                    Snare </button>
+                </div>
+                <div class="col-auto">
+                    <button type="button" class="btn btn-outline-success mx-1" 
+                    data-sound="hiHat">
+                    Hi-Hat </button>
+                </div>
+                <!-- end of drum pads -->
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <button type="button" class="btn btn-outline-primary mx-1"
+                    data-sound="cmajor">
+                    C Major </button>
+                </div>
+                <div class="col-auto">
+                    <button type="button" class="btn btn-outline-dark mx-1"
+                    data-sound="amajor">
+                    A Major </button>
+                </div>
+                <div class="col-auto">
+                    <button type="button" class="btn btn-outline-info mx-1"
+                    data-sound="gmajor">
+                    G Major </button>
+                </div>
+                <!-- end of string pads -->
+            </div>
+        </div>
+        <div id="lilPiano">
+            <div class="keys">
+                <div class="whtKey" data-note="c4"> C4
+                    <div class="blkKey" data-note="cshp">C#</div>
+                </div>
+                <div class="whtKey" data-note="d4"> D4
+                    <div class="blkKey" data-note="dshp">D#</div>
+                </div>
+                 <div class="whtKey" data-note="e4"> E4</div>
+            </div>
+        </div>
+    
+
+        <footer>De'Andra Taylor, Hackupstate CIC6</footer>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
